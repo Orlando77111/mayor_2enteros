@@ -1,8 +1,19 @@
-#programa para saber si un numero es mayor o menor
+#programa para verificar cual de dos números enteros es el mayor
 
-#Input
-n1 = int(input("Digite un numero: "))
-n2 = int(input("Digite otro: "))
 
-#processing
-if 
+
+#input
+x= int(input("digite el valor de :x "))
+y= int(input("digite el valor de :y "))
+
+#prosessing
+if x == y:
+    #output
+    print("los numeros son iguales...")
+if x > y:
+    mayor = x
+else:
+    mayor = y
+
+#output
+print ("el mayor entero entre " + str(x) + " y " + str(y) + "es" + str(mayor))
